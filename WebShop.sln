@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "webShop.WebApp", "webShop.W
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F6C85E01-0C10-4F47-9D9B-95C84F74F5A0}"
 	ProjectSection(SolutionItems) = preProject
-		README.txt = README.txt
+		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "webShopSolution.Data", "webShop.Data\webShopSolution.Data.csproj", "{9A54EB47-E47A-4747-AE0C-75EDDED01EBA}"
