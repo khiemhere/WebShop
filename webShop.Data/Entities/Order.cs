@@ -9,7 +9,7 @@ namespace webShopSolution.Data.Entities
 {
     public class Order
     {
-        public int Id { set; get; }
+        public long Id { set; get; }
         public DateTime OrderDate { set; get; }
         public Guid UserId { set; get; }
         public string ShipName { set; get; }
@@ -20,6 +20,6 @@ namespace webShopSolution.Data.Entities
 
         public List<OrderDetail> OrderDetails { get; set; }
 
-        public AppUser AppUser { get; set; }
+        //public AppUser AppUser { get; set; }
     }
 }

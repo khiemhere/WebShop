@@ -10,9 +10,10 @@ namespace webShopSolution.Data.Entities
     public class Category
     {
         public long Id { get; set; }
-        public int SortOder { get; set; }
+        public int SortOrder { get; set; }
         public bool IsShowOnHome { get; set; }
         public long? ParentId { get; set; }
         public Status Status { get; set; }
+        public List<ProductInCategory> ProductInCategories { get; set; }
     }
 }

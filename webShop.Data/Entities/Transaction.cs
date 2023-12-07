@@ -9,7 +9,7 @@ namespace webShopSolution.Data.Entities
 {
     public class Transaction
     {
-        public int Id { set; get; }
+        public long Id { set; get; }
         public DateTime TransactionDate { set; get; }
         public string ExternalTransactionId { set; get; }
         public decimal Amount { set; get; }
@@ -19,8 +19,8 @@ namespace webShopSolution.Data.Entities
         public TransactionStatus Status { set; get; }
         public string Provider { set; get; }
 
-        public Guid UserId { get; set; }
+        //public Guid UserId { get; set; }
 
-        public AppUser AppUser { get; set; }
+        //public AppUser AppUser { get; set; }
     }
 }

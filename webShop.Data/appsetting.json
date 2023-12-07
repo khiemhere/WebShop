@@ -1,0 +1,5 @@
+{
+  "Connectionstrings": {
+    "webShopSolutionDb": "Server=MACBUC; Database=WEB_SHOP_SOLUTION; User=sa; Password=Jin@121223;"
+  }
+}
